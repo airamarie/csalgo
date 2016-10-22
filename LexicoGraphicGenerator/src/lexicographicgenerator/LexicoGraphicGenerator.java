@@ -11,14 +11,20 @@ package lexicographicgenerator;
  */
 public class LexicoGraphicGenerator {
 //23165
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         String charset = "ABC";
-        for (int i=0; i<charset.length(); i++){
+        /*for (int i=0; i<charset.length(); i++){
             System.out.println(charset.charAt(i));
+        }*/
+
+        int arr[] = {5, 22, 1, 6, 9};
+        for (int i : arr) {
+            System.out.println(i + " ");
         }
     }
-    
+
 }
